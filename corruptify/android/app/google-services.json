@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "640284496495",
+    "project_id": "corruptify-4c9a3",
+    "storage_bucket": "corruptify-4c9a3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640284496495:android:db8aa7462f3b2ff229b39a",
+        "android_client_info": {
+          "package_name": "com.example.corruptify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYm9O0_1o-DKn2a_XDa82s2WCztztThsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

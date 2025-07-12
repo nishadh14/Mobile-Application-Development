@@ -1,0 +1,2 @@
+C:/Flutter/Project/Corruptify/project/corruptify/android/app/.cxx/RelWithDebInfo/w6l4le15/x86_64/CMakeFiles/edit_cache.dir
+C:/Flutter/Project/Corruptify/project/corruptify/android/app/.cxx/RelWithDebInfo/w6l4le15/x86_64/CMakeFiles/rebuild_cache.dir
