@@ -1,0 +1,2 @@
+C:/Flutter/Synt Tech Projects/garage-app/android/app/.cxx/Debug/385k3g3p/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Flutter/Synt Tech Projects/garage-app/android/app/.cxx/Debug/385k3g3p/armeabi-v7a/CMakeFiles/rebuild_cache.dir
