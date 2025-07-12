@@ -27,7 +27,7 @@ class _AdminDashboardScreenState extends State<AdminDashboardScreen> {
   Future<void> fetchRequests() async {
     try {
       final response = await http.get(
-        Uri.parse('https://garage.satishpawale.link/fetch_stored_problem.php'),
+        Uri.parse('your url'),
       );
 
       if (response.statusCode == 200) {
@@ -61,7 +61,7 @@ class _AdminDashboardScreenState extends State<AdminDashboardScreen> {
 
   Future<List<Map<String, dynamic>>> fetchBookings() async {
     final response = await http.get(
-        Uri.parse('https://garage.satishpawale.link/fetch_stored_problem.php'));
+        Uri.parse('your url'));
 
     if (response.statusCode == 200) {
       final Map<String, dynamic> jsonResponse = json.decode(response.body);
@@ -82,7 +82,7 @@ class _AdminDashboardScreenState extends State<AdminDashboardScreen> {
 
   Future<void> updateProblemStatus(
       String problemId, String status, String workerAssign) async {
-    final String apiUrl = "https://garage.satishpawale.link/update_status.php";
+    final String apiUrl = "your url";
 
     try {
       final response = await http.post(

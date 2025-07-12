@@ -10,13 +10,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-      options: const FirebaseOptions(
-    apiKey: "AIzaSyDmIoVT_edhk2QbYjUlyucDydnO0JyNUW0",
-    appId: "1:395818536966:android:6e55606d0c6b2ca0137387",
-    messagingSenderId: "395818536966",
-    projectId: "garage-27087",
-  ));
+  await Firebase.initializeApp();
 
   SharedPreferences prefs = await SharedPreferences.getInstance();
   bool isLoggedIn = prefs.getBool("IsLoggin") ?? false;

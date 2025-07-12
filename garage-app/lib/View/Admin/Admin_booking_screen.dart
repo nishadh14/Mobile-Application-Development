@@ -34,7 +34,7 @@ class _AdminBookingScreenState extends State<AdminBookingScreen> {
 
   Future<void> updateProblemStatus(
       int problemId, String status, String workerAssign) async {
-    final String apiUrl = "https://garage.satishpawale.link/update_status.php";
+    final String apiUrl = "your url";
 
     try {
       final response = await http.post(
@@ -57,7 +57,7 @@ class _AdminBookingScreenState extends State<AdminBookingScreen> {
   Future<void> fetchBookings() async {
     try {
       final response = await http.get(
-        Uri.parse('https://garage.satishpawale.link/fetch_stored_problem.php'),
+        Uri.parse('your url'),
       );
 
       if (response.statusCode == 200) {
@@ -83,7 +83,7 @@ class _AdminBookingScreenState extends State<AdminBookingScreen> {
   }
 
   Future<void> fetchWorkers() async {
-    const String apiUrl = "http://garage.satishpawale.link/fetch_workers.php";
+    const String apiUrl = "your url";
 
     try {
       final response = await http.get(Uri.parse(apiUrl));
@@ -106,7 +106,7 @@ class _AdminBookingScreenState extends State<AdminBookingScreen> {
 
   void updateBookingStatus(
       int index, dynamic problemId, String status, String workerAssign) async {
-    final String apiUrl = "https://garage.satishpawale.link/update_status.php";
+    final String apiUrl = "your url";
 
     try {
       final response = await http.post(

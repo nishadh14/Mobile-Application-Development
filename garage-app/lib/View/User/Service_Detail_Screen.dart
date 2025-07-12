@@ -30,7 +30,7 @@ class ServiceDetailScreen extends StatelessWidget {
     }
 
     const String apiUrl =
-        "http://garage.satishpawale.link/store_problem.php"; // For emulator
+        "your url ";
 
     try {
       final response = await http.post(
@@ -58,31 +58,7 @@ class ServiceDetailScreen extends StatelessWidget {
     }
   }
 
-  // Future<void> submitProblem() async {
-  //   SharedPreferences prefs = await SharedPreferences.getInstance();
-  //   String? username = prefs.getString("username"); // Retrieve username
-  //   String? userId = prefs.getString("user_id");
-
-  //   if (username == null || userId == null) {
-  //     print("User not logged in!");
-  //     return;
-  //   }
-
-  //   const String apiUrl = "http://localhost/garageapi/store_problem.php";
-
-  //   final response = await http.post(
-  //     Uri.parse(apiUrl),
-  //     headers: {"Content-Type": "application/json"},
-  //     body: jsonEncode({
-  //       "username": username,
-  //       "phone_no": "1234567890",
-  //       "problems": description
-  //     }),
-  //   );
-
-  //   final responseData = jsonDecode(response.body);
-  //   print(responseData);
-  // }
+  
 
   @override
   Widget build(BuildContext context) {
@@ -140,29 +116,7 @@ class ServiceDetailScreen extends StatelessWidget {
               ),
             ),
 
-            // Spacing before button
-            // ElevatedButton(
-            //   onPressed: () async {
-            //     await submitProblem();
-
-            //     ScaffoldMessenger.of(context).showSnackBar(
-            //       SnackBar(content: Text('$title selected!')),
-            //     );
-            //   },
-
-            //   // style: ElevatedButton.styleFrom(
-            //   //   backgroundColor: Colors.black,
-            //   //   padding:
-            //   //       const EdgeInsets.symmetric(horizontal: 30, vertical: 14),
-            //   //   shape: RoundedRectangleBorder(
-            //   //     borderRadius: BorderRadius.circular(10),
-            //   //   ),
-            //   // ),
-            //   child: Text(
-            //     'Select Service',
-            //     style: GoogleFonts.quicksand(fontSize: 18, color: Colors.white),
-            //   ),
-            // ),
+         
           ],
         ),
       ),

@@ -52,7 +52,7 @@ class _GarageServiceScreenState extends State<GarageServiceScreen> {
     } else {
       try {
         const String apiUrl =
-            "http://garage.satishpawale.link/store_problem.php"; // Replace with your actual URL
+            ""; // Replace with your actual URL
         SharedPreferences prefs = await SharedPreferences.getInstance();
         String? username = prefs.getString("username");
         int? phone_no = prefs.getInt("phone_no");

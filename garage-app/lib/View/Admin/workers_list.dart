@@ -24,7 +24,7 @@ class _AdminWorkersScreenState extends State<AdminWorkersScreen> {
   }
 
   Future<void> fetchWorkers() async {
-    const String apiUrl = "http://garage.satishpawale.link/fetch_workers.php";
+    const String apiUrl = "your url";
 
     try {
       final response = await http.get(Uri.parse(apiUrl));
@@ -213,7 +213,7 @@ class _AdminWorkersScreenState extends State<AdminWorkersScreen> {
   }
 
   Future<void> addWorker(String name, String role) async {
-    const String apiUrl = "http://garage.satishpawale.link/add_worker.php";
+    const String apiUrl = "your url";
 
     try {
       var response = await http.post(

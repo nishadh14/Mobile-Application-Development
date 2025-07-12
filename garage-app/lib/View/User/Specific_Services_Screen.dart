@@ -31,7 +31,7 @@ class _SpecificServicesScreenState extends State<SpecificServicesScreen> {
   Future<void> sendSelectedServicesToBackend(
       String username, String phoneNo, List<String> selectedServices) async {
     const String apiUrl =
-        'http://garage.satishpawale.link/specifi_services_add.php';
+        'your url';
 
     try {
       final response = await http.post(
